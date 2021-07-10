@@ -1,6 +1,6 @@
 body{
     text-align:center;
-    background:url("bg.jpg")
+    background:url("bg.jpg")no-repeat;
    
 
 }
@@ -16,7 +16,8 @@ body{
 #input{
     margin-bottom:20px;
 }
-.para{
+.listEle{
+    position:relative;
     margin:auto;
     padding:10px;
     height:30px;
@@ -26,3 +27,13 @@ body{
     font-size:20px;
 
 }
+.afftercb{
+    background-color:seagreen;
+}
+.cross{
+   transform: rotate(135deg);
+position:absolute;
+right:0px;
+top:2px;
+font-size:24px;
+cursor: pointer;} 
