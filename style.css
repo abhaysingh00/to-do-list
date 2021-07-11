@@ -1,9 +1,12 @@
 body{
     text-align:center;
     background:url("bg.jpg")no-repeat;
-    height:100vh;
+    
    
 
+}
+html{
+    height:100vh
 }
 #task , #add-btn{
     height: 50px;
@@ -12,7 +15,7 @@ body{
 #add-btn{
     width:50px;
     font: weight 1000; 
-    border:3px solid royalblue;
+    border:3px solid #88fff7;
 }
 #input{
     margin-bottom:20px;
@@ -23,13 +26,13 @@ body{
     padding:10px;
     height:30px;
     width:500px;
-    background-color:cyan;
-    border:3px solid greenyellow;
+    background-color:#7C83FD;
+    border:3px solid #88FFF7;
     font-size:20px;
 
 }
 .afftercb{
-    background-color:seagreen;
+    background-color:#96BAFF;
 }
 .cross{
    transform: rotate(135deg);
@@ -37,4 +40,9 @@ position:absolute;
 right:0px;
 top:2px;
 font-size:24px;
-cursor: pointer;} 
+cursor: pointer;
+}
+.listEle:hover{
+    background-color: #7dedff;
+
+}
